@@ -1,0 +1,9 @@
+<Material>
+	<Shader source="model.shader" />
+	<ShaderFlag name="_F01_Skinning" />
+	<ShaderFlag name="_F02_NormalMapping" />
+
+	<Sampler name="albedoMap" map="demon_01_512.png" />
+	<Sampler name="normalMap" map="demon_01_normal.png" />
+	<Uniform name="matSpecParams" a="0.99228" b="1" c="0.797856" d="0.78125" />
+</Material>

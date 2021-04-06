@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>model_2.qml</file>
+        <file>model_3.qml</file>
+        <file>model_4.qml</file>
+        <file>model_5.qml</file>
+        <file>model_6.qml</file>
+        <file>model_1.qml</file>
+    </qresource>
+</RCC>

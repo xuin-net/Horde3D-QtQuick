@@ -1,0 +1,41 @@
+<Model name="boss" geometry="boss.geo">
+	<Joint name="Bip01_Pelvis" tx="8.97706e-07" ty="15.0797" tz="-4.5034" rx="-16.9024" ry="168.409" rz="87.6381" sx="0.1" sy="0.1" sz="0.1" jointIndex="1">
+		<Joint name="Bip01_Spine" tx="36.4673" ty="0.00330019" tz="3.63168" rx="-3.0302" ry="0.967382" rz="-0.309651" jointIndex="2">
+			<Joint name="Bip01_Spine1" tx="76.8968" ty="0.00162888" tz="0.0371552" rx="-1.53662" ry="52.2452" rz="-2.62991" jointIndex="3">
+				<Joint name="Bip01_Neck" tx="71.9628" ty="-1.14441e-05" tz="0.166839" jointIndex="4">
+					<Joint name="Bip01_L_Clavicle" tx="3.88098" ty="17.437" tz="1.61472" rx="19.7694" ry="155.131" rz="77.2294" jointIndex="5">
+						<Joint name="Bip01_L_UpperArm" tx="88.1097" ty="0" tz="1.52588e-05" rx="-38.5494" ry="-0.66874" rz="-33.6389" jointIndex="6">
+							<Joint name="Bip01_L_Forearm" tx="71.4371" ty="0" tz="7.62939e-06" rx="-8.53776e-06" ry="-70.191" rz="0" jointIndex="7">
+								<Joint name="Bip01_L_Hand" tx="118.676" ty="-3.05176e-05" tz="-3.8147e-06" rx="-83.3986" ry="136.465" rz="-157.023" jointIndex="8" />
+							</Joint>
+						</Joint>
+					</Joint>
+					<Joint name="Bip01_R_Clavicle" tx="3.88098" ty="-17.437" tz="1.61466" rx="-23.6392" ry="155.131" rz="-77.0274" jointIndex="9">
+						<Joint name="Bip01_R_UpperArm" tx="88.1097" ty="-1.52588e-05" tz="1.52588e-05" rx="41.2314" ry="-3.61743" rz="37.8177" jointIndex="10">
+							<Joint name="Bip01_R_Forearm" tx="71.4371" ty="0" tz="3.8147e-06" rx="-0" ry="-64.5721" rz="0" jointIndex="11">
+								<Joint name="Bip01_R_Hand" tx="118.676" ty="0" tz="-7.62939e-06" rx="57.1516" ry="27.3451" rz="17.0229" jointIndex="12" />
+							</Joint>
+						</Joint>
+					</Joint>
+					<Joint name="Bip01_Head" tx="51.0189" ty="-7.62939e-06" tz="-3.22955" rx="17.7522" ry="-66.2425" rz="9.56182" jointIndex="13">
+						<Joint name="Bip01_Ponytail1" tx="6.67355" ty="-0.00012207" tz="-12.1309" rx="-0.000354023" ry="129.843" rz="-6.23252e-05" jointIndex="14" />
+					</Joint>
+				</Joint>
+			</Joint>
+		</Joint>
+		<Joint name="Bip01_L_Thigh" tx="-4.57764e-05" ty="31.7074" tz="-6.10352e-05" rx="1.50998" ry="-51.7828" rz="165" jointIndex="15">
+			<Joint name="Bip01_L_Calf" tx="89.3804" ty="0" tz="3.8147e-06" rx="-0" ry="-70.9717" rz="0" jointIndex="16">
+				<Joint name="Bip01_L_Foot" tx="69.4794" ty="7.62939e-06" tz="7.62939e-06" rx="-19.6945" ry="29.9292" rz="14.4993" jointIndex="17" />
+			</Joint>
+		</Joint>
+		<Joint name="Bip01_R_Thigh" tx="4.57764e-05" ty="-31.7074" tz="3.05176e-05" rx="0.761994" ry="-58.4679" rz="-156.323" jointIndex="18">
+			<Joint name="Bip01_R_Calf" tx="89.3804" ty="0" tz="0" rx="-0" ry="-67.1851" rz="0" jointIndex="19">
+				<Joint name="Bip01_R_Foot" tx="69.4794" ty="-1.52588e-05" tz="9.53674e-07" rx="0.651948" ry="23.4268" rz="-15.7996" jointIndex="20" />
+			</Joint>
+		</Joint>
+	</Joint>
+
+	<Mesh name="boss" material="boss_Material__475.material.xml" tx="0" ty="3.05176e-06" tz="-0.688373" sx="0.1" sy="0.1" sz="0.1" batchStart="0" batchCount="5472" vertRStart="0" vertREnd="5397">
+		<Mesh name="#boss" material="boss_Material__475.material.xml" batchStart="5472" batchCount="1752" vertRStart="5398" vertREnd="7147" />
+	</Mesh>
+</Model>

@@ -1,0 +1,6 @@
+<Material>
+	<Shader source="model.shader" />
+	<ShaderFlag name="_F02_NormalMapping" />
+
+	<Uniform name="matDiffuseCol" a="0.119008" b="0.119008" c="0.119008" d="1" />
+</Material>

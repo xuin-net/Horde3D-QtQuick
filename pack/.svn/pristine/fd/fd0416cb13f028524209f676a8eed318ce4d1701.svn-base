@@ -1,0 +1,34 @@
+
+var 场景 = {
+    背景图:"book_bg.png",
+    背景音乐:"gamebg.mp3",
+    //左上角标题:"title_pic.png",
+
+    页码:{
+        显示:true,
+        背景图片:"pageNum_bg.png"
+    }
+}
+
+var 封面 = {
+    图片:"index.png",
+    音乐:"aaa.mp3"
+}
+
+//IMAGE,  图片
+//GIF,  动画
+//SPINE, 骨骼动画
+//Z_IMAGE 遮罩平移图片
+var 内文码 = {
+   
+   //-- P1 --1
+    "1":{游戏:true,页码:1},
+    "2":{页码:1},
+    "100":{游戏:true,游戏模式:{QML:"Default.qml",Type:"text"},页码:1},
+    "101":{游戏:true,游戏模式:{QML:"horde3d.qml",Type:"text",source: "boss",Scale:1.0},页码:2},
+    "102":{游戏:true,游戏模式:{QML:"horde3d.qml",Type:"text",source: "astroBoy_walk_Maya",Scale:0.2},页码:3},
+    "103":{游戏:true,游戏模式:{QML:"horde3d.qml",Type:"text",source: "animated_letters",Scale:0.5},页码:4},
+    "104":{游戏:true,游戏模式:{QML:"horde3d.qml",Type:"text",source: "animation_robot",Scale:0.5},页码:5},
+
+
+}

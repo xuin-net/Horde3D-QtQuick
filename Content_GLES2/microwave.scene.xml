@@ -1,0 +1,10 @@
+<Model name="microwave" geometry="microwave.geo">
+
+	<Mesh name="Cube" material="microwave_microwave.material.xml" batchStart="0" batchCount="27744" vertRStart="0" vertREnd="6454">
+		<Mesh name="Cube_001" material="microwave_microwave.material.xml" tx="1.51962" ty="1.3852" tz="2.45144" batchStart="27744" batchCount="9648" vertRStart="6455" vertREnd="8533">
+			<Mesh name="Cube_002" material="microwave_glass.material.xml" rx="-0" ry="0" rz="-6.83019e-06" batchStart="37392" batchCount="2976" vertRStart="8534" vertREnd="9239" />
+		</Mesh>
+		<Mesh name="Cube_003" material="microwave_Glas_2.material.xml" tx="0.157601" ty="0.17577" tz="0.399457" batchStart="40368" batchCount="5088" vertRStart="9240" vertREnd="10137" />
+		<Mesh name="Cube_004" material="microwave_Material_005.material.xml" tx="0.157601" ty="0.17577" tz="0.399457" batchStart="45456" batchCount="4608" vertRStart="10138" vertREnd="10953" />
+	</Mesh>
+</Model>

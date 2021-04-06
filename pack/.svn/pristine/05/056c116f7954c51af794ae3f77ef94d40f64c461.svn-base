@@ -1,0 +1,61 @@
+import QtQuick 2.5
+import com.K2D 1.0
+import Horde3D 1.0
+import "./" as L
+
+
+L.K2D_BaseGame {
+    id:self
+
+    property var mCodeObj;
+    property bool isGameOver:false
+    property bool isGameOvering:false
+
+
+
+    function onExit(){
+        isGameOvering = true;
+        log("game onExit")
+        baseGameOnExit();
+        horde3d.cleanup();
+    }
+
+    function init(codeObj){
+        mCodeObj = codeObj;
+
+        horde3d.fileName = codeObj.游戏模式.source;
+        horde3d.modelScale = codeObj.游戏模式.Scale;
+    }
+
+
+    function soundPlayEnd(type){
+        if(type == "sound"){
+
+        }
+    }
+
+    function parsingCode(codeObj){
+        if(mCodeObj.游戏模式.范围.indexOf(codeObj.页码) == -1 || isGameOver == true){
+            exitScreen(codeObj);
+            return;
+        }
+
+        if(mCodeObj.code == codeObj.code){
+            exitScreen(codeObj);
+            return;
+        }
+
+        if(isGameOvering == true){
+            return;
+        }
+
+    }
+
+    Horde3D {
+        id: horde3d
+        width: parent.width;
+        height: parent.height;
+        sourcePath: K2D.openFolder;
+    }
+
+}

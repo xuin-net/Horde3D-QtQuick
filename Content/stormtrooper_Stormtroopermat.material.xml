@@ -1,0 +1,7 @@
+<Material>
+	<Shader source="model.shader" />
+	<ShaderFlag name="_F01_Skinning" />
+
+	<Sampler name="albedoMap" map="Stormtrooper_D.jpg" />
+	<Uniform name="matSpecParams" a="0.05" b="0.05" c="0.05" d="0.78125" />
+</Material>

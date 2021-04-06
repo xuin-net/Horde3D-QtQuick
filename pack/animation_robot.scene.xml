@@ -1,0 +1,19 @@
+<Model name="animation_robot" geometry="animation_robot.geo">
+
+	<Mesh name="Box01" material="animation_robot__7_-_Default.material.xml" tx="-0.103278" ty="0.135416" tz="0.050593" rx="-0" ry="180" rz="0" sx="0.037109" sy="0.037109" sz="0.037109" batchStart="0" batchCount="36" vertRStart="0" vertREnd="23">
+		<Mesh name="Box02" material="animation_robot__7_-_Default.material.xml" tx="0" ty="10" tz="0" batchStart="36" batchCount="36" vertRStart="24" vertREnd="53">
+			<Mesh name="Cylinder01" material="animation_robot__2_-_Default.material.xml" tx="6" ty="40" tz="1e-06" rx="90" ry="0" rz="90" batchStart="72" batchCount="648" vertRStart="54" vertREnd="207">
+				<Mesh name="Box03" material="animation_robot__7_-_Default.material.xml" tx="0" ty="6" tz="4e-06" rx="-1.70755e-05" ry="89.9999" rz="-89.9999" batchStart="720" batchCount="36" vertRStart="208" vertREnd="237">
+					<Mesh name="Cylinder02" material="animation_robot__2_-_Default.material.xml" tx="6.00001" ty="40" tz="4e-06" rx="90" ry="0" rz="90" batchStart="756" batchCount="648" vertRStart="238" vertREnd="391">
+						<Mesh name="Box04" material="animation_robot__7_-_Default.material.xml" tx="2e-06" ty="6" tz="-2e-06" rx="-8.53774e-06" ry="90" rz="-90" batchStart="1404" batchCount="36" vertRStart="392" vertREnd="421">
+							<Mesh name="Cylinder03" material="animation_robot__1_-_Default.material.xml" tx="1.6e-05" ty="40" tz="3e-06" batchStart="1440" batchCount="648" vertRStart="422" vertREnd="575">
+								<Mesh name="Cylinder05" material="animation_robot__1_-_Default.material.xml" tx="0" ty="25.5659" tz="0" batchStart="2088" batchCount="648" vertRStart="576" vertREnd="729" />
+								<Mesh name="Cylinder04" material="animation_robot__1_-_Default.material.xml" tx="0" ty="10" tz="0" batchStart="2736" batchCount="648" vertRStart="730" vertREnd="883" />
+							</Mesh>
+						</Mesh>
+					</Mesh>
+				</Mesh>
+			</Mesh>
+		</Mesh>
+	</Mesh>
+</Model>

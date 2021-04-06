@@ -1,0 +1,7 @@
+<Material>
+	<Shader source="model.shader" />
+	<ShaderFlag name="_F02_NormalMapping" />
+
+	<Sampler name="albedoMap" map="pump_metalreflect.jpg" />
+	<Sampler name="normalMap" map="pump_body.jpg" />
+</Material>
